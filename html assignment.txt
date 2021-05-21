@@ -1,0 +1,489 @@
+What are Tags?
+
+HTML tags are composed of three things: an opening tag, content and ending tag. Some tags are unclosed tags.
+
+HTML documents contain two things:
+
+content, and
+tags
+When a web browser reads an HTML document, the browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+
+
+
+What is the difference between HTML elements and tags?
+
+HTML elements communicate to the browser to render text. When the elements are enclosed by brackets <>, they form HTML tags. Most of the time, tags come in a pair and surround content.
+
+
+
+How to create a nested webpage in HTML?
+
+The HTML "iframe" tag is used to display a nested webpage. In other words, it represents a webpage within a webpage.
+
+ 
+
+Does a hyperlink only apply to text?
+
+No, you can use hyperlinks on text and images both. The HTML anchor tag defines a hyperlink that links one page to another page.
+
+
+Is it possible to change the color of the bullet in an unordered list?
+The color of the bullet is always the color of the first text of the list. So, if you want to change the color of the bullet, you must change the color of the text.
+
+
+Explain the layout of HTML?
+HTML layout specifies a way in which the web page is arranged.
+
+
+Every website has a specific layout to display content in a specific manner.
+
+Following are different HTML5 elements that are used to define the different parts of a webpage.
+
+header: It is used to define a header for a document or a section.
+nav: It is used to define a container for navigation links
+section: It is used to define a section in a document
+article: It is used to define an independent, self-contained article
+aside: It is used to define content aside from the content (like a sidebar)
+footer: It is used to define a footer for a document or a section
+
+
+What is a marquee?
+
+Marquee is used to put the scrolling text on a web page. It scrolls the image or text up, down, left or right automatically. You should put the text which you want to scroll within the marquee tag.
+
+
+
+What are empty elements?
+
+HTML elements with no content are called empty elements.
+
+
+
+What is the use of a span tag? Give one example.
+
+The span tag is used for the following things:
+
+For adding color to text
+For adding background on text
+Highlight any color text
+
+
+Why is a URL encoded in HTML?
+
+An URL is encoded to convert non-ASCII characters into a format that can be used over the Internet because a URL is sent over the Internet by using the ASCII character-set only. If a URL contains characters outside the ASCII set, the URL has to be converted. The non-ASCII characters are replaced with a "%" followed by hexadecimal digits.
+
+
+
+Does a tag is a HTML tag?
+
+No, the declaration is not an HTML tag. There are many type of HTML e.g. HTML 4.01 Strict, HTML 4.01 Transitional, HTML 4.01 Frameset, XHTML 1.0 Strict, XHTML 1.0 Transitional, XHTML 1.0 Frameset, XHTML 1.1 etc. So, is used to instruct the web browser about the HTML page.
+
+
+
+What are the different new form element types in HTML 5?
+
+Following is a list of 10 frequently used new elements in HTML 5:
+
+Color
+Date
+Datetime-local
+Email
+Time
+Url
+Range
+Telephone
+Number
+Search
+
+
+Which type of video formats are supported by HTML5?
+
+HTML 5 supports three types of video format:
+
+mp4
+WebM
+Ogg
+
+
+Is audio tag supported in HTML 5?
+
+Yes. It is used to add sound or music files on the web page. There are three supported file formats for HTML 5 audio tag.
+
+mp3
+WAV
+Ogg
+
+
+What is the use of the figure tag in HTML 5?
+
+The figure tag is used to add a photo in the document on the web page. It is used to handle the group of diagrams, photos, code listing with some embedded content.
+
+
+
+What is the use of figcaption tag in HTML 5?
+
+The
+
+element is used to provide a caption to an image. It is an optional tag and can appear before or after the content within the
+tag. The
+element is used with
+element and it can be placed as the first or last child of the
+element.
+
+
+What is datalist tag?
+
+The HTML 5 datalist tag provides an autocomplete feature on the form element. It facilitates users to choose the predefined options to the users to select data.
+
+
+
+If I do not put "!DOCTYPE html" will HTML 5 work?
+
+No, the browser will not be able to identify that it is an HTML document and HTML 5 tags do not function properly.
+
+
+
+What is the use of the required attribute in HTML5?
+
+It forces a user to fill text on the text field or text area before submitting the form. It is used for form validation.
+
+
+
+Can we insert a comment in HTML?
+
+Yes, we can insert a comment in HTML by beginning with a lesser than sign and ending with a greater than sign. For instance, “.”
+
+
+
+What is white space?
+
+White space is the empty sequence of space characters. This white space is considered as a single space character in the HTML.
+
+
+
+What is the advantage of white space?
+
+White space helps the browser to collapse multiple spaces into one single space, and thereby the indent lines of the text can be taken care of without caring for the multiple spaces that are left. Thereby using the HTML code, white space helps in better organizing the content and tags, making them readable and easy to understand.
+
+
+
+How can we create links to different sections within the same web page?
+
+We can create several links to different sections within the same web page by using the tag along with referencing through the use of the # symbol.
+
+
+
+Can we keep the list elements straight in the HTML file?
+
+Yes, we can keep list elements straight in the HTML file by using indents. The indent can also be used for the sub nested list for the parent list that contains it for creating more lists and elements.
+
+
+
+Why do we use alternate text in the image mapping?
+
+Alternate text is used in image mapping to remove the confusion and get clear about the hotspots that correspond to the particular link. This way, descriptive text can be applied to each of the hotspot links.
+
+
+
+Can HTML files work well on the new browser?
+
+Of course, the HTML files could work very well on the new browser, just that the new browser is compliant with the HTML standards. It may be possible that some new browsers may not support the features of HTML and therefore, won’t work well.
+
+
+
+What are the different list types of the ordered list?
+
+The different list types of the ordered list include the roman numerals and alphabetical. On the other hand, the unordered list attributes can be set through circle, square, or disc.
+
+
+
+Where are the numerical values taken in HTML?
+
+The numerical values are taken from the ASCII values for the various characters in the HTML.
+
+
+
+What are the different advantages of grouping several checkboxes?
+
+There are several advantages to grouping several checkboxes. These include,
+
+It helps in organizing the checkboxes.
+It helps in applying particular names on the checkbox buttons to differentiate them easily from a group.
+It supports the creation of a different group of checkboxes on a single webpage with different names.
+
+
+If there is no text between the tags, then what will be the outcome? Give an example?
+
+If there is no text between the tags, then there will be nothing available to format, and hence no formatting can be done. For instance, tags without closing tag like that of image tag or br tag do not require any text between them, and hence no formatting will be needed in such a case.
+
+
+
+Where can you specify colors for table borders?
+
+The specification of color for table borders can be made in the style sheet, and in its absence, the same as the text color will apply.
+
+
+
+Can we create a link that could connect to another web page when clicked on it?
+
+Yes, we can create a link that could connect to another web page when clicked on it. These links are called hyperlinks and use the href tag.
+
+
+
+If there is no text between the tags, then what will be the outcome? Give an example?
+
+If there is no text between the tags, then there will be nothing available to format, and hence no formatting can be done. For instance, tags without closing tag like that of image tag or tag do not require any text between them, and hence no formatting will be needed in such a case.
+
+
+
+Where can you specify colors for table borders?
+
+The specification of color for table borders can be made in the style sheet, and in its absence, the same as the text color will apply.
+
+
+
+Can we create a link that could connect to another web page when clicked on it?
+
+Yes, we can create a link that could connect to another web page when clicked on it. These links are called hyperlinks and use the href tag.
+
+
+
+Can a single hyperlink take the web browser to different pages?
+
+No, a single hyperlink can take the web browser to only one pre-specified single web page.
+
+
+
+Is there any limit to a text field size?
+
+Yes, there is a limit of 13 characters in a text field size. By setting the size attribute, the size value can be set as low as 1. If the size attribute is set to zero, then the size will be set to the default size of 13 characters.
+
+
+
+Name some new features which were not present in HTML but are added to HTML5?
+
+
+
+Some new features in HTML5 include:
+
+DOCTYPE declaration: !DOCTYPE html
+section: Section tag defines a section in the document, such as a header, footer or in other sections of the document. It is used to define the structure of the document.
+header: Header tag defines the head section of the document. A header section always sticks at the top of the document.
+footer: Footer tag defines the footer section of the document. A footer section always sticks at the bottom of the document.
+article: Article tag defines an independent piece of the content of a document.
+main: The main tag defines the main section in the document which contains the main content of the document.
+figcaption: Figcaption tag defines the caption for the media elements such as an image or video.
+
+
+What is Anchor tag and how can you open an URL into a new tab when clicked?
+
+Anchor tag in HTML is used to link between two sections or two different web pages or website templates. To open an URL into a new tab in the browser upon a click, we need to add target attribute equal to _blank.
+
+
+
+What are the different browsers that support HTML5?
+
+All modern browsers support HTML5 elements except some old browsers. But fortunately, most of the browsers will take html5 elements as inline elements.
+
+
+
+Why Meta tags are used in HTML?
+
+Meta tags in HTML are used by the developer to tell the browser about the page description, author of the template, character set, keywords and many more. Meta tags are used for search engine optimization to tell the search engine about the page contents.
+
+
+
+What are Web Workers?
+
+Web Workers is a code of JavaScript that runs in the background threads without disturbing the performance of the page. It is used for computing-heavy tasks like an access database or function.
+
+
+
+What is the SVG element?
+
+SVG is a followed XML format; it stands for Scalable Vector Graphics which is used to create vector graphics with the support for interactivity and animation. SVG is resolution independent as it does not lose its quality when they are resized or zoomed.
+
+
+
+Explain about Canvas.
+
+Canvas is a pixel-based graphics and it is one of the new features of HTML5. It provides a space in the document where we can draw graphics by using JavaScript and it is resolution dependent, hence the quality will be affected when it’s zoomed or resized.
+
+
+
+What is Quirks mode in HTML5?
+
+If we do not include the "!DOCTYPE" element in our HTML page or Document, it will go to Quirks Mode. In this mode, the HTML element depends on the browser. Hence the content will be displayed according to the browser.
+
+
+
+Quick tag refresher.
+
+There are a lot of different HTML elements, which can be a little overwhelming. Luckily, they are also generally pretty intuitive! To help you prepare for a pop quiz in your next interview, we’ve organized some of the most common elements in sections below:
+
+Text:
+
+Tag	Description
+p	Paragraph block. Has margin above and below by default.
+span	Inline text, no distinguishing styling by default. Generally used to style parts of a block of text differently (e.g. underlined, different background or font)
+a	Anchor or link. The href attribute defines where it takes you upon clicking it. This can be a reference point on the same page or a different page.
+button	A clickable element styled differently depending on the browser and operating system (e.g. Windows, Mac, Linux) used, though these can be overridden. What happens upon click is up to you to decide!
+strong, b	Renders a piece of text bold.
+i	Renders a piece of text italic.
+h1, h2, …, h6	These are headings of different levels. For example, you would generally have a single h1 tag, which can have multiple h2 tags inside of it. Each of those in turn can have multiple h3 tags inside them, and so on.
+br	Denotes a line break. HTML ignores white space in your code when it becomes more than a single space. Therefore, to break text onto a different line, you can use this tag. Alternatively, you could put the different pieces of text in two separate block-level elements.
+Layout:
+
+Tag	Description
+div	This is your basic container element. It is a block-level element but has no additional styling by default.
+ul	This stands for an unordered list, also known as a bulleted list. Inside the ul element you can have any number of li elements. Using CSS you can define whether it displays as bullet points, empty circles or squares.
+ol	Stands for ordered list. Each item inside this list will have an incremented number or symbol beside them (e.g. 1, 2, 3 or a, b, c). The symbols can be numbers, letters or roman numerals.
+li	Stands for list item. These live inside ul or ol elements. Each li is a separate item in the list, denoted by bullet point, number or any other symbol chosen by you.
+table	Sometimes you need to display related data in a table format. Hurray for tables! Just be sure not to use them for your page’s layout, or you might get a phone call from the 90s.
+tr	Used to define table rows inside table elements.
+td	Used to define table cells inside tr elements, which in turn are inside a table element.
+thead	Optional (but recommended) part of your table. Use it to group a table row (tr) that contains the column titles of your table.
+tbody	Like thead, this is optional. If you have a thead in your table, you should also include a tbody. It should contain all rows that are not in your thead.
+section	Behaves like a div but it’s used to mark a specific section of a page. Each section can have its own h1 tag, whereas normally you should only have one h1 per page. Introduced in HTML5.
+nav	Behaves like a ul but specifically for navigation items. Introduced in HTML5.
+Visuals:
+
+Tag	Description
+img	Used to show images on your page. Use the src attribute to specify which file you’d like it to load.
+video	Like img, this is used to display video on your page. If you don’t want to embed video from another source (like YouTube or Vimeo), then this is your best bet. Use source tags with the src attribute inside the video tag to specify which file to load, including backup options with different file types.
+ 
+
+Just make sure your video is small in file size or you might get some angry emails. You can specify whether you want it to show video controls (like a play/pause button) and whether it autoplays. Older browsers do not support this.
+
+audio	Similar to the above elements, but of course this only loads audio. As with the video element, this will display audio controls if you specify so. As before, use source tags with the src attribute inside the audio tag to specify which file to load, including backup options with different file types.
+Forms:
+
+Tag	Description
+form	As the name suggests, this creates a form. Every input element inside a form tag belongs to that form. The action and method attributes are used to specify what to do when submitting the form.
+input	These elements are very versatile and can take on many forms using the type attribute, from text fields and radio buttons, to date fields and Submit buttons.
+textarea	These are larger than simple text fields and allow the user to enter line breaks as well. The size can be adjusted.
+label	This defines a label for an input element. When using the for attribute, this can be clicked on to select its associated input field.
+select	Your classic dropdown. Each item inside the dropdown list is defined using the option tag, nested inside the select tag. You can of course have many option tags inside a select.
+option	An individual item in a dropdown list.
+
+
+What are attributes and how do you use them?
+
+Each tag can also have additional attributes, which change the way the tag behaves or is displayed. For example, an input tag has a type attribute, which you can use to specify whether it’s a text field, checkbox, radio button, or one of many more options.
+
+Attributes are specified directly after the name of the tag, inside the two angled brackets. They should only ever appear in opening tags or in self-closing tags - they can never be in closing tags. They are followed by an equals sign = and the chosen value in double-quotes ". Take care not to include any spaces before and after the equals sign! Multiple attributes can be defined on a single tag, separated by a space.
+
+
+
+What were some of the key goals and motivations for the HTML5 specification?
+
+HTML5 was designed to replace both HTML 4, XHTML, and the HTML DOM Level 2.
+
+Major goals of the HTML specification were to:
+
+Deliver rich content (graphics, movies, etc.) without the need for additional plugins (e.g., Flash).
+Provide better semantic support for web page structure through the introduction of new structural element tags.
+Provide a stricter parsing standard to simplify error handling, ensure more consistent cross-browser behavior, and simplify backward compatibility with documents written to older standards.
+Provide better cross-platform support (i.e., to work well whether running on a PC, Tablet, or Smartphone).
+
+
+What are some of the key new features in HTML5?
+
+Key new features of HTML5 include:
+
+Improved support for embedding graphics, audio, and video content via the new canvas, audio, and video tags.
+Extensions to the JavaScript API such as geolocation and drag-and-drop as well for storage and caching.
+Introduction of “web workers”.
+Several new semantic tags were also added to complement the structural logic of modern web applications. These include the main, nav, article, section, header, footer, and aside tags.
+New form controls, such as calendar, date, time, email, url, and search.
+
+
+What are “web workers”?
+
+Web workers at long last bring multi-threading to JavaScript. A web worker is a script that runs in the background (i.e., in another thread) without the page needing to wait for it to complete. The user can continue to interact with the page while the web worker runs in the background. Workers utilize thread-like message passing to achieve parallelism.
+
+
+
+Can a "section" contain "article" elements? Can an "article" contain "section" elements? Provide usage examples?
+
+The answer to both questions is yes; i.e., a "section" can contain "article" elements, and an "article" can contain "section" elements.
+
+For example, a personal dashboard page might contain a "section" for social network interactions as well as a "section" for the latest news articles, the latter of which could contain several "article" elements.
+
+Conversely, an "article" might contain a "section" at the end for reader comments.
+
+
+
+Can a web page contain multiple "header" elements? What about "footer" elements?
+
+Yes to both. In fact, both the "header" and "footer" tags are designed to serve their respective purposes in relation to whatever their parent “section” maybe. So not only can the page "body" contain a header and a footer, but so can every "article" and "section" element. In fact, a "header" should be present for all of these, although a "footer" is not always necessary.
+
+
+
+What is HTML5 Web Storage? Explain localStorage and sessionStorage.
+
+With HTML5, web pages can store data locally within the user’s browser. Earlier, this was done with cookies. However, Web Storage is more secure and faster. The data is not included with every server request but used ONLY when asked for.
+
+The data is stored in name/value pairs, and a web page can only access data stored by itself. Unlike cookies, the storage limit is far larger (at least 5MB) and information is never transferred to the server.
+
+The difference between localStorage and sessionStorage involves the lifetime and scope of the storage.
+
+Data stored through localStorage is permanent: it does not expire and remains stored on the user’s computer until a web app deletes it or the user asks the browser to delete it. SessionStorage has the same lifetime as the top-level window or browser tab in which the script that stored it is running. When the window or tab is permanently closed, any data stored through sessionStorage is deleted.
+
+Both forms of storage are scoped to the document origin so that documents with different origins will never share the stored objects. But sessionStorage is also scoped on a per-window basis. If a user has two browser tabs displaying documents from the same origin, those two tabs have separate sessionStorage data: the scripts running in one tab cannot read or overwrite the data written by scripts in the other tab, even if both tabs are visiting exactly the same page and are running exactly the same scripts.
+
+
+
+What is the difference between span and div?
+
+The difference is that span gives the output with display: inline and div gives the output with display: block. span is used when we need our elements to be shown in a line, one after the other.
+
+
+
+What’s the difference between the svg and canvas elements?
+
+The svg element is a container for SVG graphics. SVG has several methods for drawing paths, boxes, circles, text, and even bitmap images.
+
+SVG is a language for describing 2D graphics, but canvas allows you to draw 2D graphics on the fly using JavaScript.
+
+SVG is XML-based, which means that every element is available within the SVG DOM. You can attach JavaScript event handlers for an element.
+
+In SVG, each drawn shape is remembered as an object. If attributes of an SVG object are changed, the browser can automatically re-render the shape.
+
+Canvas is rendered pixel by pixel. In canvas, once the graphic is drawn, it is forgotten by the browser. If its position should be changed, the entire scene needs to be redrawn, including any objects that might have been covered by the graphic.
+
+
+
+What is the need of introducing Local Storage in HTML5?
+
+Before HTML5, LocalStores was done with Cookies. They are not very good for large amounts of data, because, with every request, it passes this data to the server, making it very slow and ineffective. However, HTML5 does not pass this data on every server request. It uses the data ONLY when required. In HTML5, it is possible to store large amounts of data without affecting the website’s performance. Data for the different websites gets stored in separate areas. However, a particular website can only access its own data.
+
+
+
+What is the concept of Application Cache in HTML5? What are its advantages?
+
+HTML5 introduced the concept of Application Cache. It means that a web application is cached, and is accessible without an internet connection.
+
+Following are the key advantages of Application Cache.
+
+Offline browsing – Users can use the application even when they are offline.
+Speed  – Cached resources load faster as compared to content that gets downloaded, directly from the server.
+Reduced server load – The browser will only download updated/modified resources from the server.
+
+
+What is the difference between HTMl5 Application cache and regular HTML browser cache?
+
+Following are the key differences between the two.
+
+In AppCache, we can define all the assets the browser should cache in a manifest file (even the entire site). For fetching this content, it is not necessary for the user to have accessed it previously. In other words, Application Cache can prefetch pages that have not been visited at all and are thereby unavailable in the regular browser cache. However, the browser cache will only store the pages (and associated assets) the user has visited actually.
+
+The AppCache allows web apps (and websites) to be made available offline, that too, with the same speed benefits as the regular browser cache could provide only when the user is online.
+
+
+
+What is a meter tag? What is the difference between a progress tag and a meter tag?
+
+The meter tag defines a scalar measurement within a known range or a fractional value. We can also call it a gauge.
+
+Some of the items that can be represented using meter tag are Disk usage, the relevance of a query result, and so on.
+
